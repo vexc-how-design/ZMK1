@@ -34,141 +34,142 @@
                 layer_1 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
+// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  ,      |  7      |  8      |  9      |  ESC    |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &kp COMMA &kp 7     &kp 8    &kp 9      &kp ESC    &trans
+// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  .      |  4      |  5      |  6      |  +      |  ENTER    |
+     &trans    &trans     &trans    &trans    &trans    &trans        &kp PERIOD &kp 4    &kp 5    &kp 6    &kp PLUS    &kp ENTER
+// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  -      |  1      |  2      |  3      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &kp 1    &kp 2    &kp 3    &kp MINUS    &trans
 //                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+                                &trans     &trans     &trans         &trans     &trans     &trans
 
                         >;
                 };
 
+
                 layer_2 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_3 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_4 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_5 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_6 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_7 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_8 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_9 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
                 layer_10 {
                     bindings = <
 // -----------------------------------------------------------------------------------------
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  7      |  8      |  9      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  4      |  5      |  6      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-// |  TAB     |  1      |  2      |  3      |  4      |  5      |   |  6      |  1      |  2      |  3      |  0      |  BKSP    |
-     &kp TAB    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp
-//                             | GUI      | LWR      | SPC      |   | ENT      | RSE      | ALT      |
-                                &kp LGUI   &trans     &kp SPACE      &kp RE  T  &trans     &kp RALT
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+// | -       |  -       |  -      |  -      |  -      |  -      |   |  -      |  -      |  -      |  -      |  -      |  -        |
+     &trans    &trans     &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
+//                             | -        | -        | -        |   | -        | -        | -        |
+                                &trans     &trans     &trans         &trans     &trans     &trans
                         >;
                 };
 
