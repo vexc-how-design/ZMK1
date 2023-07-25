@@ -27,6 +27,21 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&mo 3>;
+            key-positions = <37 38>;
+            layers = <0>;
+        };
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
