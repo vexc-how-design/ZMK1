@@ -12,6 +12,21 @@
 #define RAISE   2
 
 / {
+    macros {
+        page_down: page_down {
+            compatible = "zmk,behavior-macro";
+            label = "PAGE_DOWN";
+            #binding-cells = <0>;
+            bindings = <&kp LC(PAGE_DOWN)>;
+        };
+        page_up: page_up {
+            compatible = "zmk,behavior-macro";
+            label = "PAGE_UP";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LG(PAGE_UP))>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
