@@ -129,7 +129,7 @@
             >;
         };
 
-        layer_8 {
+        Right_arrow_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &kp UP     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
