@@ -124,7 +124,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp CAPSLOCK   &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp SQT        &kp LBKT  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans   &trans          &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans   &trans        &kp FSLH      &kp BACKSLASH  &trans  &trans
                         &trans  &trans  &trans          &trans   &trans          &trans
             >;
         };
