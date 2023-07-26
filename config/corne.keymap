@@ -13,30 +13,6 @@
 
 / {
     macros {
-        page_down: page_down {
-            compatible = "zmk,behavior-macro";
-            label = "PAGE_DOWN";
-            #binding-cells = <0>;
-            bindings = <&kp LC(PAGE_DOWN)>;
-        };
-        page_up: page_up {
-            compatible = "zmk,behavior-macro";
-            label = "PAGE_UP";
-            #binding-cells = <0>;
-            bindings = <&kp LC(LG(PAGE_UP))>;
-        };
-        Ctrl_N: Ctrl_N {
-            compatible = "zmk,behavior-macro";
-            label = "CTRL_N";
-            #binding-cells = <0>;
-            bindings = <&kp LC(N)>;
-        };
-        Ctrl_P: Ctrl_P {
-            compatible = "zmk,behavior-macro";
-            label = "CTRL_P";
-            #binding-cells = <0>;
-            bindings = <&kp LC(P)>;
-        };
     };
 
     combos {
