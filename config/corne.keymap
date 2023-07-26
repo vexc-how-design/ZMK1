@@ -113,10 +113,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME    &kp PAGE_UP    &kp K_SCROLL_UP    &kp LC(PAGE_UP)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp END  &kp PAGE_DOWN  &kp K_SCROLL_DOWN  &kp LC(PAGE_DOWN)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &trans             &trans             &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME    &kp PAGE_UP    &kp K_SCROLL_UP    &kp LC(PAGE_UP)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &kp END  &kp PAGE_DOWN  &kp K_SCROLL_DOWN  &kp LC(PAGE_DOWN)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans             &trans             &trans  &trans  &trans
+                        &trans  &trans  &trans      &trans         &trans             &trans
             >;
         };
 
