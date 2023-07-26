@@ -68,10 +68,10 @@
 
         Mac_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+                        &kp LEFT_ALT  &kp LG(LEFT_COMMAND)  &trans    &trans  &lt 9 SPACE  &trans
             >;
         };
 
@@ -124,7 +124,7 @@
             bindings = <
 &trans  &trans            &trans  &kp LS(LC(PAGE_UP))             &trans   &kp PLUS    &kp CAPSLOCK      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &trans         &trans  &trans
 &trans  &trans  &kp LS(LC(LEFT))     &kp LS(LC(DOWN))  &kp LS(LC(RIGHT))  &kp EQUAL         &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp BACKSLASH  &trans
-&trans  &trans            &trans               &trans             &trans  &kp MINUS          &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE     &trans         &trans  &trans
+&trans  &trans            &trans               &trans             &trans  &kp MINUS       &kp GRAVE        &kp LEFT_BRACE        &kp RIGHT_BRACE     &trans         &trans  &trans
                                                &trans             &trans     &trans          &trans                &trans                 &trans
             >;
         };
@@ -138,12 +138,12 @@
             >;
         };
 
-        layer_9 {
+        Mac_backspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LA(BSPC)  &kp BACKSPACE           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DEL  &kp LC(LG(DEL))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
 
