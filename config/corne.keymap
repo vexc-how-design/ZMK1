@@ -122,10 +122,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans            &trans  &kp LS(LC(PAGE_UP))             &trans  &trans    &kp CAPSLOCK   &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans  &trans
-&trans  &trans  &kp LS(LC(LEFT))     &kp LS(LC(DOWN))  &kp LS(LC(RIGHT))  &trans          &trans  &kp SQT        &kp LBKT  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans            &trans               &trans             &trans  &trans          &trans   &trans        &kp FSLH      &kp BACKSLASH  &trans  &trans
-                                               &trans             &trans  &trans          &trans   &trans          &trans
+&trans  &trans            &trans  &kp LS(LC(PAGE_UP))             &trans     &trans    &kp CAPSLOCK      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &trans         &trans  &trans
+&trans  &trans  &kp LS(LC(LEFT))     &kp LS(LC(DOWN))  &kp LS(LC(RIGHT))  &kp EQUAL         &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp BACKSLASH  &trans
+&trans  &trans            &trans               &trans             &trans     &trans          &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE     &trans         &trans  &trans
+                                               &trans             &trans     &trans          &trans                &trans                 &trans
             >;
         };
 
