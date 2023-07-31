@@ -148,9 +148,9 @@
 
         layer_12 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_KEYBOARD_INPUT_ASSIST_NEXT  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_KEYBOARD_INPUT_ASSIST_NEXT  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &trans  &trans  &kp C_KEYBOARD_INPUT_ASSIST_CANCEL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans                              &trans
                         &trans  &trans  &trans    &trans                            &trans                                &trans
             >;
         };
