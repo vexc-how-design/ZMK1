@@ -40,10 +40,10 @@
 
         default_layer {
             bindings = <
-&kp LS(TAB)     &kp Q  &kp W     &kp E      &kp R      &kp T       &kp Y        &kp U      &kp I    &kp O  &kp SEMI      &kp MINUS
-    &kp TAB     &kp A  &kp S     &kp D    &lt 2 F      &kp G       &kp H     &lt 10 J      &kp K    &kp L     &kp P      &kp ENTER
-  &kp LSHFT  &lt 10 Z  &kp X   &lt 4 C      &kp V      &kp B       &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                              &kp LALT  &kp LCTRL  &kp LSHFT    &lt 6 F2  &lt 2 SPACE    &lt 7 A
+&lt 12 LS(TAB)     &kp Q     &kp W     &kp E      &kp R      &kp T       &kp Y        &kp U      &kp I    &kp O  &kp SEMI      &kp MINUS
+       &kp TAB     &kp A     &kp S     &kp D    &lt 2 F      &kp G       &kp H     &lt 10 J      &kp K    &kp L     &kp P      &kp ENTER
+     &kp LSHFT  &lt 10 Z  &lt 11 X   &lt 4 C      &kp V      &kp B       &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                                    &kp LALT  &kp LCTRL  &kp LSHFT    &lt 6 F2  &lt 2 SPACE      &mo 7
             >;
         };
 
@@ -139,19 +139,19 @@
 
         layer_11 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LC(LS(GRAVE))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &kp LC(GRAVE)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         layer_12 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_KEYBOARD_INPUT_ASSIST_NEXT  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                            &trans                                &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans                            &trans                                &trans
             >;
         };
 
