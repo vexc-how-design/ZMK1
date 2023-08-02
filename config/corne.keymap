@@ -12,9 +12,9 @@
 #define LOWER   1
 #define RAISE   2
 
-/ {
-    macros {
-    };
+    / {
+        macros {
+        };
 
     combos {
         compatible = "zmk,combos";
@@ -24,6 +24,7 @@
             key-positions = <38 39>;
         };
     };
+
 
 
 
