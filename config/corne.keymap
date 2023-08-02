@@ -127,9 +127,9 @@
 
         Mac_backspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LA(BSPC)  &kp BACKSPACE       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DEL  &kp LG(DEL)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LA(BSPC)  &kp BACKSPACE   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans    &kp LG(DEL)  &kp DEL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans   &trans  &trans
                         &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
