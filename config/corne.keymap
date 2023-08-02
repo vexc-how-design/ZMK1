@@ -46,19 +46,19 @@
 
         default_layer {
             bindings = <
-&lt 12 LS(TAB)     &kp Q     &kp W     &kp E      &kp R      &kp T       &kp Y        &kp U      &kp I    &kp O  &kp SEMI      &kp MINUS
-       &kp TAB     &kp A     &kp S     &kp D    &lt 2 F      &kp G       &kp H     &lt 10 J      &kp K    &kp L     &kp P      &kp ENTER
-     &kp LSHFT  &lt 10 Z  &lt 11 X   &lt 4 C      &kp V      &kp B       &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                                    &kp LALT  &kp LCTRL  &kp LSHFT    &lt 8 F2  &lt 2 SPACE      &mo 7
+&lt 12 LS(TAB)     &kp Q     &kp W     &kp E      &kp R      &kp T       &kp Y         &kp U      &kp I    &kp O  &kp SEMI      &kp MINUS
+       &kp TAB     &kp A     &kp S     &kp D    &lt 2 F      &kp G       &kp H      &lt 10 J      &kp K    &kp L     &kp P      &kp ENTER
+     &kp LSHFT  &lt 10 Z  &lt 11 X   &lt 4 C      &kp V      &kp B       &kp N         &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                                    &kp LALT  &kp LCTRL  &kp LSHFT    &lt 8 F2  &lt 13 SPACE      &mo 7
             >;
         };
 
         Mac_layer {
             bindings = <
-&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans                &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-                        &kp LEFT_ALT  &kp LG(LEFT_COMMAND)  &trans    &trans  &lt 9 SPACE  &trans
+&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+                        &kp LEFT_ALT  &kp LEFT_COMMAND  &trans    &trans  &lt 9 SPACE  &trans
             >;
         };
 
@@ -163,10 +163,10 @@
 
         layer_13 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(BSPC)     &kp BSPC   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &kp LC(DEL)  &kp DEL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans       &trans   &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
 
