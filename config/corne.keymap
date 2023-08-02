@@ -39,10 +39,10 @@
 
         Mac_layer {
             bindings = <
-&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-                        &kp LEFT_ALT  &kp LEFT_COMMAND  &trans    &trans  &lt 9 SPACE  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
+                        &trans  &kp LEFT_COMMAND  &trans    &trans  &lt 9 SPACE  &trans
             >;
         };
 
