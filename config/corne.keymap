@@ -25,8 +25,16 @@
         };
     };
 
-    &mt {
-        tapping-term-ms = <400>;
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     keymap {
@@ -35,7 +43,7 @@
         default_layer {
             bindings = <
 &lt 12 LS(TAB)       &kp Q           &kp W    &kp E      &kp R      &kp T       &kp Y         &kp U      &kp I           &kp O        &kp SEMI      &kp MINUS
-       &kp TAB  &mt LWIN A  &mt LEFT_ALT S    &kp D    &lt 2 F      &kp G       &kp H      &lt 10 J      &kp K  &mt LEFT_ALT L  &mt LEFT_WIN P      &kp ENTER
+       &kp TAB  &hm LWIN A  &hm LEFT_ALT S    &kp D    &lt 2 F      &kp G       &kp H      &lt 10 J      &kp K  &mt LEFT_ALT L  &mt LEFT_WIN P      &kp ENTER
      &kp LSHFT    &lt 10 Z        &lt 11 X  &lt 4 C      &kp V      &kp B       &kp N         &kp M  &kp COMMA         &kp DOT        &kp FSLH  &kp BACKSLASH
                                               &mo 3  &kp LCTRL  &kp LSHFT    &lt 8 F2  &lt 13 SPACE      &mo 7
             >;
