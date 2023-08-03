@@ -6,16 +6,16 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
 
-    / {
-        macros {
-        };
+/ {
+    macros {
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -34,7 +34,9 @@
             tapping-term-ms = <200>;
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings =
+                <&kp>,
+                <&kp>;
         };
     };
 
@@ -151,10 +153,10 @@
 
         layer_12 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans  &bt BT_CLR  &trans  &trans
-&trans  &trans  &trans  &trans  &ext_power EP_OFF  &trans    &trans  &bt BT_NXT  &bt BT_PRV      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans      &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans      &trans      &trans
+&trans  &trans  &trans  &trans             &trans            &trans    &trans      &trans      &trans  &bt BT_CLR  &trans  &trans
+&trans  &trans  &trans  &trans  &ext_power EP_OFF  &ext_power EP_ON    &trans  &bt BT_NXT  &bt BT_PRV      &trans  &trans  &trans
+&trans  &trans  &trans  &trans             &trans            &trans    &trans      &trans      &trans      &trans  &trans  &trans
+                        &trans             &trans            &trans    &trans      &trans      &trans
             >;
         };
 
