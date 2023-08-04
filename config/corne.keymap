@@ -25,6 +25,10 @@
         Layer_6 {
             bindings = <&mo 6>;
             key-positions = <38 39>;
+
+        Layer_14 {
+            bindings = <&mo 14>;
+            key-positions = <19 20>;
         };
     };
 
@@ -173,7 +177,7 @@
 
         layer_14 {
             bindings = <
-&mkp LCLK  &trans  &mmv MOVE_UP  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &mkp LCLK    &trans  &trans  &trans
