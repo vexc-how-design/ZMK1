@@ -25,7 +25,7 @@
         Layer_6 {
             bindings = <&mo 6>;
             key-positions = <38 39>;
-        }:
+        };
 
         Layer_14 {
             bindings = <&mo 14>;
