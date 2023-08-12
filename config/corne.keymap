@@ -53,12 +53,12 @@
         };
     };
 
+    &lt {
+        quick_tap_ms = <100>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
-
-&lt {
-    quick_tap_ms = <100>;
-};
 
         default_layer {
             bindings = <
