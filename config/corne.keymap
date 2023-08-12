@@ -20,6 +20,9 @@
 	time-to-max-speed-ms = <1>;             /* <--- How long time until max speed is reached (default: 500) */
 };
 
+&lt {
+    quick_tap_ms = <100>;
+};
 
 / {
     macros {
@@ -51,10 +54,6 @@
                 <&kp>,
                 <&kp>;
         };
-    };
-
-    &lt {
-        quick_tap_ms = <100>;
     };
 
     keymap {
