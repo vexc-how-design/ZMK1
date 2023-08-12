@@ -56,10 +56,14 @@
     keymap {
         compatible = "zmk,keymap";
 
+&lt {
+    quick_tap_ms = <100>;
+};
+
         default_layer {
             bindings = <
 &lt 12 LS(TAB)       &kp Q           &kp W    &kp E      &kp R      &kp T       &kp Y         &kp U      &kp I           &kp O        &kp SEMI      &kp MINUS
-       &kp TAB  &hm LWIN A  &hm LEFT_ALT S    &kp D    &lt 2 F      &kp G       &kp H      &lt 10 J      &kp K  &hm LEFT_ALT L  &hm LEFT_WIN P      &kp ENTER
+       &kp TAB  &kp A  &hm LEFT_ALT S    &hm LWIN D    &lt 2 F      &kp G       &kp H      &lt 10 J      &hm LWIN K  &hm LEFT_ALT L  &kp P      &kp ENTER
      &kp LSHFT    &lt 10 Z        &lt 11 X  &lt 4 C      &kp V      &kp B       &kp N         &kp M  &kp COMMA         &kp DOT        &kp FSLH  &kp BACKSLASH
                                               &mo 3  &kp LCTRL  &kp LSHFT    &lt 8 F2  &lt 13 SPACE      &mo 7
             >;
@@ -191,14 +195,15 @@
             >;
         };
 
-        layer_15 {
+        Window_layers {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &hm LEFT_ALT D  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
+
 
         layer_16 {
             bindings = <
