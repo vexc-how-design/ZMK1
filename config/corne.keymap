@@ -151,7 +151,7 @@
 
         layer_10 {
             bindings = <
-&trans  &trans        &trans  &LG(UP)         &trans  &trans    &trans  &trans      &trans             &trans           &trans  &trans
+&trans  &trans  &trans  &kp LG(UP)         &trans  &trans    &trans  &trans      &trans             &trans           &trans  &trans
 &trans  &trans  &kp LG(LEFT)  &trans  &kp LG(RIGHT)  &trans    &trans  &trans      &trans             &trans           &trans  &trans
 &trans  &trans        &trans  &trans         &trans  &trans    &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
                               &trans         &trans  &trans    &tog 1  &tog 0      &trans
