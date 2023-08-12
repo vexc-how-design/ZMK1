@@ -15,7 +15,7 @@
 #define LOWER   1
 #define RAISE   2
 
-#define U_MOUSE_MOVE_MAX 900
+#define U_MOUSE_MOVE_MAX 1900
 &mmv {
 	time-to-max-speed-ms = <1>;             /* <--- How long time until max speed is reached (default: 500) */
 };
