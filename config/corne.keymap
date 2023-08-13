@@ -15,7 +15,11 @@
 #define LOWER   1
 #define RAISE   2
 
-#define U_MOUSE_MOVE_MAX 500
+#define U_MOUSE_MOVE_MAX 1250
+#define U_MOUSE_MOVE_EXPONENT 1
+#define U_MOUSE_MOVE_TIME 1500
+#define U_MOUSE_MOVE_DELAY 0
+
 &mmv {
 	time-to-max-speed-ms = <1>;             /* <--- How long time until max speed is reached (default: 500) */
 };
@@ -190,7 +194,7 @@
 &trans  &trans  &trans  &mmv MOVE_UP  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &mkp LCLK    &trans  &trans  &trans
+                        &trans  &mkp LCLK  &mkp LCLK    &trans  &trans  &trans
             >;
         };
 
