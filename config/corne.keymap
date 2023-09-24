@@ -20,9 +20,7 @@
 #define U_MOUSE_MOVE_TIME 1500
 #define U_MOUSE_MOVE_DELAY 0
 
-&nice_view_spi {
-    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
-};
+
 
 &mmv {
 	time-to-max-speed-ms = <1>;             /* <--- How long time until max speed is reached (default: 500) */
